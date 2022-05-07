@@ -1,0 +1,1 @@
+EL modelado se encuentra en el archivo "Injection_molding.iam"

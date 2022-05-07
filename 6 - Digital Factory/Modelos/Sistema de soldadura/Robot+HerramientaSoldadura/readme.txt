@@ -1,0 +1,1 @@
+El modelado se encuentra en el archivo "Robot+WeldingSystem.iam"

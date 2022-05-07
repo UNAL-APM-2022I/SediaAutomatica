@@ -1,0 +1,1 @@
+En ensamble de la máquina es el archivo "Cutting-Machine.iam"
