@@ -1,0 +1,11 @@
+<ul class="dropdown-menu">
+                            <li><a href="1-gestion.html">Gestión de producción</a></li>
+                            <li><a href="2-industria.html">Automatización e industria 4.0</a></li>
+                            <li><a href="3-planeacion.html">Planeación del proyecto</a></li>
+                            <li><a href="4-evaluacion.html">Evaluación económica del proyecto</a></li>
+                            <li><a href="5-celda.html">Celdas robotizadas</a></li>
+                            <li><a href="6-factory.html">Digital factory</a></li>
+                            <li><a href="7-control.html">Control con PLCs</a></li>
+                            <li><a href="8-SCADA.html">SCADA</a></li>
+                            <li><a href="9-comunicacion.html">Comunicaciones industriales</a></li>
+                        </ul>
