@@ -106,7 +106,9 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    background-image: linear-gradient(
+}
+
+/*background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
@@ -114,9 +116,7 @@ header a:hover{
     ,url("http://unal-apm-2022i.github.io/SediaAutomatica/images/render.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-}
-
+    background-position: center center;*/
 #hero h1{
     color: white;
 }
@@ -336,6 +336,11 @@ footer {
     }
 
     .img-container .img-fluid{
+        width:100%;
+        height:auto;
+    }
+
+    #final .img-fluid{
         width:100%;
         height:auto;
     }
