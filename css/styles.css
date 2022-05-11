@@ -127,6 +127,28 @@ header a:hover{
     color: white;
 }
 
+#information p{
+    font-size: 180%;
+}
+
+#hero p{
+    font-size: 180%;
+}
+
+#somos-proya p{
+    font-size: 180%;
+}
+
+#carta p{
+    font-size: 180%;
+}
+
+.simulation-img-2{
+    width: 60%;
+    margin:0 auto;
+    height: auto;
+}
+
 .simulation-img{
     width:80%;
     margin:0 auto;
