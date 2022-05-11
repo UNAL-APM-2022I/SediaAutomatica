@@ -122,6 +122,19 @@ header a:hover{
     color: white;
 }
 
+.simulation-img{
+    width:80%;
+    margin:0 auto;
+    height: auto;
+}
+
+#nuestros-programas .container-2{
+    background-color: none;
+    padding: 0px;
+    width:70%;
+    margin:0 auto;
+}
+
 #somos-proya .container{
     text-align: center;
     padding: 50px 12px;
@@ -361,6 +374,33 @@ footer {
         justify-content: center;
     }
 
+    #nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-programas .container{
+    padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
     #nuestros-programas p{
         display: block;
         margin-bottom: 30px;
@@ -442,3 +482,4 @@ footer {
         display:none !Important;
         }
 }
+
