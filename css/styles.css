@@ -111,7 +111,7 @@ header a:hover{
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
     )
-    ,url("/images/render.png");
+    ,url("https://github.com/UNAL-APM-2022I/SediaAutomatica/blob/web-page/images/render.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -340,7 +340,7 @@ footer {
     }
 
     #somos-proya .img-container{
-        background-image: url("/images/ISA-95.png");
+        background-image: url("https://github.com/UNAL-APM-2022I/SediaAutomatica/blob/web-page/images/ISA-95.png");
         background-size: cover;
         background-position: center center;
         width: 473px;
