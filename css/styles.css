@@ -438,7 +438,7 @@ footer {
     }
 }
 
-@media (min-width: 400px) {
+@media screen and (min-width: 300px) and (max-width=800) {
     #caracteristicas{
         background-position-x: calc(100vw - 800px);
     }
