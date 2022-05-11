@@ -124,6 +124,7 @@ header a:hover{
 
 
 
+
 #somos-proya .container{
     text-align: center;
     padding: 50px 12px;
@@ -204,6 +205,10 @@ header a:hover{
     background-color: rgb(30,30,30);
     color: white;
     height: 40vh;
+}
+
+.img-perfil{
+    width:100%;
 }
 
 .img-carta{
@@ -384,6 +389,9 @@ footer {
     }
 
     .carta:nth-child(2) {
+        background-image:none;
+    }
+    .carta:nth-child(3) {
         background-image:none;
     }
 
