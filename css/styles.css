@@ -122,9 +122,6 @@ header a:hover{
     color: white;
 }
 
-
-
-
 #somos-proya .container{
     text-align: center;
     padding: 50px 12px;
@@ -394,6 +391,20 @@ footer {
     .carta:nth-child(3) {
         background-image:none;
     }
+
+    #information{
+        text-align: center;
+    }
+
+    #information p{
+        width:80%;
+        margin:0 auto;
+    }
+
+    #information h1{
+        font-size: 400%;
+    }
+    
 
 
     #caracteristicas{
