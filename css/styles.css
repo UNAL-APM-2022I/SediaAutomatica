@@ -203,7 +203,11 @@ header a:hover{
     text-align: center;
     background-color: rgb(30,30,30);
     color: white;
-    height: 80vh;
+    height: 40vh;
+}
+
+.img-carta{
+    width:80%;
 }
 
 #final h2{
@@ -381,9 +385,6 @@ footer {
 
     .carta:nth-child(2) {
         background-image:none;
-    }
-    .img-carta{
-        width:80%;
     }
 
 
