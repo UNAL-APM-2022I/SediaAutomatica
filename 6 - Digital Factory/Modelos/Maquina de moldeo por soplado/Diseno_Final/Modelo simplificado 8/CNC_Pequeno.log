@@ -1,0 +1,136 @@
+﻿STEP to UG
+! INFO-     NX STEP AP214 - V1899
+! INFO-      
+! INFO-     Start of Translation: 26-JUN-2022  10:03:55 AM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\juand\OneDrive\Documentos\APM\Github\SediaAutomatica\6 - Digital Factory\Modelos\Maquina de moldeo por soplado\Diseno_Final\Modelo simplificado 8\CNC_Pequeno.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        C:/Users/juand/OneDrive/Documentos/APM/Github/SediaAutomatica/6 - Digital Factory/Modelos/Maquina de moldeo por soplado/Diseno_Final/Modelo simplificado 8/CNC_Pequeño v4.step
+! SUMMARY-  Date             2022-06-26T09:49:56-05:00
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v19
+! SUMMARY-  Orig_System      Autodesk Translation Framework v11.7.0.108
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    251
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:    263
+! SUMMARY-  cartesian_point ............................................:   1220
+! SUMMARY-  closed_shell ...............................................:     24
+! SUMMARY-  context_dependent_shape_representation .....................:      5
+! SUMMARY-  direction ..................................................:   1101
+! SUMMARY-  edge_curve .................................................:    575
+! SUMMARY-  edge_loop ..................................................:    263
+! SUMMARY-  face_bound .................................................:     12
+! SUMMARY-  face_outer_bound ...........................................:    251
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      7
+! SUMMARY-  item_defined_transformation ................................:      5
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:    575
+! SUMMARY-  manifold_solid_brep ........................................:     24
+! SUMMARY-  next_assembly_usage_occurrence .............................:      5
+! SUMMARY-  oriented_edge ..............................................:   1150
+! SUMMARY-  plane ......................................................:    251
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:      6
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:      6
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:      6
+! SUMMARY-  product_definition_shape ...................................:     11
+! SUMMARY-  product_related_product_category ...........................:      6
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:      5
+! SUMMARY-  shape_representation .......................................:      6
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      7
+! SUMMARY-  vector .....................................................:    575
+! SUMMARY-  vertex_point ...............................................:    382
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                           6998
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 26-JUN-2022 10:03:55 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 26-JUN-2022  10:03:56 AM
+! INFO-     Filing Part ..: C:\Users\juand\OneDrive\Documentos\APM\Github\SediaAutomatica\6 - Digital Factory\Modelos\Maquina de moldeo por soplado\Diseno_Final\Modelo simplificado 8\Perfiles_Doblar
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 26-JUN-2022  10:03:58 AM
+! INFO-     Filing Part ..: C:\Users\juand\OneDrive\Documentos\APM\Github\SediaAutomatica\6 - Digital Factory\Modelos\Maquina de moldeo por soplado\Diseno_Final\Modelo simplificado 8\CNC_Eje_Z (2)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 26-JUN-2022  10:03:59 AM
+! INFO-     Filing Part ..: C:\Users\juand\OneDrive\Documentos\APM\Github\SediaAutomatica\6 - Digital Factory\Modelos\Maquina de moldeo por soplado\Diseno_Final\Modelo simplificado 8\CNC_Eje_Y (2)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 26-JUN-2022  10:03:59 AM
+! INFO-     Filing Part ..: C:\Users\juand\OneDrive\Documentos\APM\Github\SediaAutomatica\6 - Digital Factory\Modelos\Maquina de moldeo por soplado\Diseno_Final\Modelo simplificado 8\Mesa (3)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    17
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             17
+! STATUS-   Creating the UG part (Phase 3 of 3): 26-JUN-2022  10:04:00 AM
+! INFO-     Filing Part ..: C:\Users\juand\OneDrive\Documentos\APM\Github\SediaAutomatica\6 - Digital Factory\Modelos\Maquina de moldeo por soplado\Diseno_Final\Modelo simplificado 8\CNC_Eje_X (2)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 26-JUN-2022  10:04:00 AM
+! INFO-     Filing Part ..: C:\Users\juand\OneDrive\Documentos\APM\Github\SediaAutomatica\6 - Digital Factory\Modelos\Maquina de moldeo por soplado\Diseno_Final\Modelo simplificado 8\CNC_Pequeno.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        24
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        24
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 26-JUN-2022  10:04:01 AM
+! INFO-      
