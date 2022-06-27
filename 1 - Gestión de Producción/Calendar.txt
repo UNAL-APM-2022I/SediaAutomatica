@@ -1,0 +1,2 @@
+Shift	From	To	Mo	Tu	We	Th	Fr	Sa	Su	Pauses
+Shift-1	7:00:00.0000	17:00:00.0000	true	true	true	true	true			9:00-9:15; 12:00-13:00
