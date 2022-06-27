@@ -1,46 +1,65 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
-    font-family:  sans-serif,'cambria';
+body {
+    font-family: sans-serif, 'cambria';
     margin: 0;
 }
 
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
 
 
-.container{
+.container {
     max-width: 1400px;
     margin: auto;
 }
 
-.color-acento{ color:#333; }
-
-header{
-    background-color: rgba(51, 51, 51, 0.95);
-    
+.color-acento {
+    color: #333;
 }
 
-header .logo{
+header {
+    background-color: rgba(51, 51, 51, 0.95);
+
+}
+
+header .logo {
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
     color: blueviolet;
     font-size: 1.6em;
-    width:45%;
+    width: 45%;
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,8 +72,8 @@ header .container{
     padding-bottom: 25px;
 }*/
 
-body .navbar-toggler{
-    display:none;
+body .navbar-toggler {
+    display: none;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -79,115 +98,112 @@ body .navbar-toggler{
     border-left: .3em solid transparent;
 }
 
-body .dropdown-menu{
-    width:300px;
+body .dropdown-menu {
+    width: 300px;
     background-color: #333;
 }
 
-body .navbar-nav{
+body .navbar-nav {
     margin-top: 20px;
 }
 
-header a{
+header a {
     padding: 5px 12px;
     text-decoration: none;
     font-size: 20px;
     color: whitesmoke;
 }
 
-header a:hover{
+header a:hover {
     color: rgba(245, 245, 245, 0.7);
     text-decoration: none;
 }
 
-#hero{
+#hero {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    width:100%;
+    width: 100%;
     height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.3)
-    )
-    ,url("http://unal-apm-2022i.github.io/SediaAutomatica/images/render.jpg");
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url("http://unal-apm-2022i.github.io/SediaAutomatica/images/render.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-#table{
-    width:80%;
-    margin:0 auto;
+#table {
+    width: 80%;
+    margin: 0 auto;
 }
 
-#hero h1{
+#hero h1 {
     color: white;
 }
 
-#information p{
+#information p {
     font-size: 180%;
 }
 
-#hero p{
+#hero p {
     font-size: 180%;
 }
 
-#somos-proya p{
+#somos-proya p {
     font-size: 180%;
 }
 
-#carta p{
+#carta p {
     font-size: 180%;
 }
 
-.simulation-img-2{
+.simulation-img-2 {
     width: 60%;
-    margin:0 auto;
+    margin: 0 auto;
     height: auto;
 }
 
-.simulation-img{
-    width:80%;
-    margin:0 auto;
+.simulation-img {
+    width: 80%;
+    margin: 0 auto;
     height: auto;
 }
 
-#nuestros-programas .container-2{
+#nuestros-programas .container-2 {
     background-color: none;
     padding: 0px;
-    width:70%;
-    margin:0 auto;
+    width: 70%;
+    margin: 0 auto;
 }
 
-#somos-proya .container{
+#somos-proya .container {
     text-align: center;
     padding: 50px 12px;
 }
 
-#nuestros-programas{
-    background-color: rgb(30,30,30);
+#nuestros-programas {
+    background-color: rgb(30, 30, 30);
     color: white;
     text-align: center;
 }
 
-#nuestros-programas .container{
+#nuestros-programas .container {
     padding: 150px 12px;
 }
 
-#nuestros-programas h2{
+#nuestros-programas h2 {
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestros-programas p{
+#nuestros-programas p {
     display: none;
 }
 
-#nuestros-programas .carta{
+#nuestros-programas .carta {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -195,65 +211,56 @@ header a:hover{
     border-radius: 15px;
 }
 
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/front-end.jpg");
+.carta:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/front-end.jpg");
 
 }
 
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/full-stack.jpg");
+.carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/full-stack.jpg");
 }
 
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/python.jpg");
+.carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/python.jpg");
 
 }
 
-#caracteristicas .container{
+#caracteristicas .container {
     text-align: center;
     padding: 250px 12px;
 }
 
-#caracteristicas li{
+#caracteristicas li {
     margin: 16px 0px;
     font-weight: bold;
 }
 
-#final{
+#final {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30,30,30);
+    background-color: rgb(30, 30, 30);
     color: white;
     height: 40vh;
 }
 
-.img-perfil{
-    width:100%;
+.img-perfil {
+    width: 100%;
 }
 
-.img-carta{
-    width:80%;
+.img-carta {
+    width: 80%;
 }
 
-#final h2{
+#final h2 {
     font-size: 9vw;
 }
 
@@ -262,67 +269,67 @@ footer {
     padding: 20px 0;
     background-color: #444;
     font-size: 80%;
-  }
-  
-  .footer-social p {
+}
+
+.footer-social p {
     /*Configuramos la etiqueta p para el footer*/
     margin: 0;
     padding-bottom: 10px;
     color: white;
-  }
-  
-  .footer-social {
+}
+
+.footer-social {
     /*Configuración de las redes sociales del footer*/
     text-align: center;
     padding-bottom: 15px;
     color: #444;
-  }
-  
-  .footer-social ul li {
+}
+
+.footer-social ul li {
     /*Mostramos de manera horizontal los iconos de las redes sociales*/
     display: inline-block;
-  
-  }
-  
-  .footer-social a {
+
+}
+
+.footer-social a {
     /*Mostramos los iconos menos opacos para que al poner el mouse encima se muestren con el 100% de opacidad*/
     opacity: 0.75;
-  }
-  
-  .footer-social ul li a:hover {
+}
+
+.footer-social ul li a:hover {
     /*Hacemos que se muestre el 100% de opacidad cuando el mouse esté encima (recordar: iconos de mis redes sociales)*/
     opacity: 1;
-  }
-  
-  .footer-list {
+}
+
+.footer-list {
     /*Creamos otro menú de navegación en el footer*/
     list-style: none;
     padding: 1px;
     margin: 0 auto;
     width: fit-content;
     padding-bottom: 20px;
-  }
-  
-  .footer-list li {
+}
+
+.footer-list li {
     /*Que se muestre horizontal*/
     display: inline-block;
     padding: 0 15px;
-  }
-  
-  .footer-list li a {
+}
+
+.footer-list li a {
     /*Hacemos igual que con los iconos de mis redes sociales (opacidad: 75%)*/
     text-decoration: none;
     color: white;
     opacity: 0.75;
-  }
-  
-  .footer-list li a:hover {
+}
+
+.footer-list li a:hover {
     /*Ahora hacemos que al tener el click encima del menú del footer la letra se agrande y tenga opacidad del 100%*/
     opacity: 1;
     font-size: 110%;
-  }
-  
-  .footer-logo-website {
+}
+
+.footer-logo-website {
     /*Tipo de imagen para los logos de web site (aplicado en el menu de navegación)*/
     width: 22px;
     /*Ancho de la imagen*/
@@ -330,51 +337,51 @@ footer {
     /* Altura de la imagen*/
     margin-left: 0;
     /*Margen a la izquierda*/
-  }
-  
-  .footer-copyright {
+}
+
+.footer-copyright {
     /*Parametros para el copyright (UNAL)*/
     margin: 0 auto;
     width: fit-content;
     text-align: center;
     color: white;
-  }
-
-  .img-container .img-fluid{
-    width:100%;
-    height:auto;
 }
-  
 
-@media (min-width: 700px){
+.img-container .img-fluid {
+    width: 100%;
+    height: auto;
+}
 
 
-    header{
+@media (min-width: 700px) {
+
+
+    header {
         position: fixed;
         width: 100%;
     }
 
-    header .container{
+    header .container {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    header nav{
+    header nav {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
     }
 
-    #hero h1{
+    #hero h1 {
         font-size: 5em;
     }
 
-    #somos-proya .container{
+    #somos-proya .container {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-proya .texto{
+    #somos-proya .texto {
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -384,84 +391,86 @@ footer {
         justify-content: center;
     }
 
-    .img-container .img-fluid{
-        width:100%;
-        height:auto;
+    .img-container .img-fluid {
+        width: 100%;
+        height: auto;
     }
 
-    #somos-proya h2{
+    #somos-proya h2 {
         margin-top: 0px;
     }
 
-    #somos-proya .img-container{
+    #somos-proya .img-container {
         width: 473px;
         height: 353px;
     }
 
-    #nuestros-programas .programas{
+    #nuestros-programas .programas {
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-programas{
-    background-color: rgb(30,30,30);
-    color: white;
-    text-align: center;
-}
+    #nuestros-programas {
+        background-color: rgb(30, 30, 30);
+        color: white;
+        text-align: center;
+    }
 
-#nuestros-programas .container{
-    padding: 150px 12px;
-}
+    #nuestros-programas .container {
+        padding: 150px 12px;
+    }
 
-#nuestros-programas h2{
-    margin-top: 0;
-    font-size: 3.2em;
-}
+    #nuestros-programas h2 {
+        margin-top: 0;
+        font-size: 3.2em;
+    }
 
-#nuestros-programas p{
-    display: none;
-}
+    #nuestros-programas p {
+        display: none;
+    }
 
-#nuestros-programas .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
-}
+    #nuestros-programas .carta {
+        background-position: center center;
+        background-size: cover;
+        padding: 50px 0px;
+        margin: 30px;
+        border-radius: 15px;
+    }
 
-    #nuestros-programas p{
+    #nuestros-programas p {
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-programas h2{
+    #nuestros-programas h2 {
         font-size: 4em;
     }
 
-    #nuestros-programas h3{
+    #nuestros-programas h3 {
         margin-top: 0;
     }
 
-    #nuestros-programas .carta{
+    #nuestros-programas .carta {
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgb(107, 105, 105);
     }
+
     .carta:first-child {
-        background-image:none;
+        background-image: none;
     }
 
     .carta:nth-child(2) {
-        background-image:none;
-    }
-    .carta:nth-child(3) {
-        background-image:none;
+        background-image: none;
     }
 
-    #information{
+    .carta:nth-child(3) {
+        background-image: none;
+    }
+
+    #information {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -470,39 +479,37 @@ footer {
         height: auto;
     }
 
-    #information p{
-        width:80%;
-        margin:0 auto;
+    #information p {
+        width: 80%;
+        margin: 0 auto;
     }
 
-    #information h1{
+    #information h1 {
         font-size: 400%;
     }
-    
 
 
-    #caracteristicas{
+
+    #caracteristicas {
         background-image: url("media/background-2.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
     }
 
-    #caracteristicas .container{
+    #caracteristicas .container {
         text-align: initial;
     }
 
-    #caracteristicas ul{
+    #caracteristicas ul {
         margin-left: 100px;
     }
 
-    #final h2{
+    #final h2 {
         font-size: 5em;
     }
 
-    footer .container{
+    footer .container {
         justify-content: flex-end;
     }
 }
-
-
