@@ -85,6 +85,10 @@ body .navbar-toggler {
     color: rgba(255, 255, 255, 0.7) !important;
 }
 
+.img-scada{
+    width:80%;
+}
+
 .dropdown-toggle::after {
     display: inline-block;
     width: 0;
