@@ -60,7 +60,7 @@
         <h1>Control con PLCs</h1>
         <p>Decidimos escoger como proovedor de los PLC a Rockwell Automation y se concluyó también realizar la programación en Ladder, basada en Grafcet.
         <p>
-    
+            <br>
         <img src="images/rockwell.png" alt="Arquitectura" class="arquitectura"></img><br><br>
         Ahora bien, la programación ladder en principio estaría basada en el siguiente layout de la planta
         <img src="images/layout-planta.png" alt="Arquitectura" class="arquitectura"></img><br><br>
@@ -70,7 +70,11 @@
         <br>
         Sin embargo, se dio prioridad a las estaciones automatizadas las cuales son: corte de madera, corte de espuma, taladrado por CNC, extrusión por soplado y la celda robótica de soldadura, obteniendo el siguiente grafcet simplificado de la planta:
         <br><br><embed src="docs/Grafcet-simplificado.pdf#view=FitH" width="80%" height="900px" type="application/pdf"><br><br>
-    </section>
+            <p>El código en general se puede encontrar en el repositorio de Github, pero de ahí se puede destacar el punto en donde se toma la decisión de fabricar una silla simple o compleja con la señal CCR.</p>
+            <img src="images/Ladder_1.png" alt="">
+            <p>Cuando se ejecuta la rutina que habilita dicha señal, se ejecutan los procesos de inyección de plástico para el reposabrazos y los procesos que involucran la fabricación de los cojines que tapizan la silla compleja.</p>
+            <img src="images/Ladder_2.png" alt=""><br>
+        </section>
     <footer>
         <div class="footer-social">
             <p>Repositorio del proyecto: <a href="https://github.com/UNAL-APM-2022I/SediaAutomatica"><img class="footer-logo-website"
