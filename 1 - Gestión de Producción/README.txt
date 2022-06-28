@@ -1,1 +1,1 @@
-sdasd
+En esta carpeta se encuentran los archivos de Tecnomatix

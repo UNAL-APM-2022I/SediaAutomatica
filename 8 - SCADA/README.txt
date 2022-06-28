@@ -1,1 +1,1 @@
-sdasd
+El sistema SCADA implementado en el proyecto, se realizó por medio de comunicación OPC DA, se puede encontrar en la página web del proyecto.

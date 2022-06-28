@@ -1,1 +1,1 @@
-sdasd
+El principal protocolo de comunicación utilizado por Sedia Automatica es OPC DA y OPC UA
