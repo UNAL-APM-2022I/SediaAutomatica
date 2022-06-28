@@ -1,1 +1,1 @@
-sdasd
+Aquí se puede observar la arquitectura de comunicaciones utlizada

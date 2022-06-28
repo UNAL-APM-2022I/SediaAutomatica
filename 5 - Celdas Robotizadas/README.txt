@@ -1,1 +1,1 @@
-sdasd
+En la carpeta modelados se pueden encontrar los modelados en formato STEP de los elementos usados en la celda

@@ -1,1 +1,1 @@
-sdasd
+Dentro de la carpeta Ladder se encuentran los archivos con extensión .ACD generados por Studio 5000, con la respectiva programación de la planta
